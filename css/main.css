@@ -88,11 +88,233 @@ body {
   opacity: 30%;
 }
 .main {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .apply-today {
   text-align: center;
 }
+.car {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin-top: 50px;
+}
+.car img {
+  width: 80%;
+  background-color: #d9d8d4;
+}
+
+.car button {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+  border-radius: 5%;
+  padding: 5px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.4s ease-in;
+}
+.car button:hover {
+  background-color: #6610f2;
+  transform: translate(15px);
+  color: white;
+}
+.car button:hover::after {
+  content: "";
+  color: white;
+}
+.small-text-middle {
+  align-items: center;
+  text-align: center;
+  font-style: italic;
+  opacity: 70%;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+.how-it-works {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+/* Main page */
+/* ITEM 1 AND IMG 1 */
+.item-1 {
+  display: block;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.item-1 h1 {
+  margin-bottom: 50px;
+}
+.item-1 p {
+  margin-bottom: 50px;
+}
+.item-1 button {
+  justify-content: center;
+  width: 30%;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #6610f2;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 5%;
+  padding: 5px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.4s ease-in;
+}
+.item-1 button:hover {
+  background-color: #6610f2;
+  transform: translate(15px);
+  color: white;
+}
+.img-1 img {
+  width: 100%;
+  margin-right: 50%;
+} /* ITEM 1 AND IMG 1 END */
+/* ITEM 2 AND IMG 2 */
+.item-2 {
+  display: block;
+  justify-content: flex-end;
+  align-items: right;
+  text-align: right;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.item-2 h1 {
+  margin-bottom: 50px;
+}
+.item-2 p {
+  margin-bottom: 50px;
+}
+.item-2 button {
+  justify-content: center;
+  width: 30%;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #6610f2;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 5%;
+  padding: 5px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.4s ease-in;
+}
+.item-2 button:hover {
+  background-color: #6610f2;
+  transform: translate(15px);
+  color: white;
+}
+.img-2 img {
+  width: 100%;
+}
+/* ITEM 2 AND IMG 2 END */
+/* ITEM 3 AND IMG 3 */
+.item-3 {
+  display: block;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.item-3 h1 {
+  margin-bottom: 50px;
+}
+.item-3 p {
+  margin-bottom: 50px;
+}
+.item-3 button {
+  justify-content: center;
+  width: 30%;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #6610f2;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 5%;
+  padding: 5px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.4s ease-in;
+}
+.item-3 button:hover {
+  background-color: #6610f2;
+  transform: translate(15px);
+  color: white;
+}
+.item-3 img {
+  width: 100%;
+  margin-right: 50%;
+}
+.reviews {
+  background-color: #f5f5f5;
+  padding-bottom: 100px;
+}
+.reviews h1 {
+  padding-top: 100px;
+}
+.reviews p {
+  font-size: 20px;
+}
+.review1 {
+  display: flex;
+  margin-top: 100px;
+  padding: 0 70px;
+}
+.review1 img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.profile {
+  display: inline-block;
+  padding-right: none;
+  width: 500px;
+}
+.profile p {
+  margin-top: 10px;
+}
+.comment {
+  padding-left: 50px;
+}
+.purple-box {
+  align-items: center;
+  text-align: center;
+  background-color: #8356cc;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.btn-purple-box {
+  margin-top: 20px;
+  border: none;
+  background-color: white;
+  color: #8356cc;
+  padding: 10px 30px;
+  border-radius: 5%;
+}
+.grey-box {
+  background-color: #edf1ff;
+}
+.disclaimer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  text-align: left;
+  font-size: 20px;
+}
+/* ITEM 3 AND IMG 3 EMD */
 /* HIDDEN CLASS */
 .hidden {
   display: none;
