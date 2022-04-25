@@ -13,3 +13,4 @@ btnClose.addEventListener("click", function () {
   navbar0.classList.remove("hidden");
   navbar1.classList.add("hidden");
 });
+// animate
